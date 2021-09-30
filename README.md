@@ -8,6 +8,24 @@
 pip install beyonic
 ```
 
+
+**Using the python-dotenv module.** 
+
+Create a .env file using the following commands on your terminal or power shell.
+
+```bash 
+>>>touch .env
+``` 
+
+Inside your .env file specify the Beyonic API Access Key
+
+
+**.env file** 
+```python
+BEYONIC_ACCESS_KEY = "674c837dcf2c02d4ff530c1fb1f24676df69cd2d"
+```
+
+
 #### **[getExamples.py](https://github.com/HarunMbaabu/BeyonicAPI-Python-Examples/blob/main/getExamples.py)**
 
 ```python
