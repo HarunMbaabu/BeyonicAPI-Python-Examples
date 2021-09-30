@@ -17,7 +17,7 @@ Create a .env file using the following commands on your terminal or power shell.
 >>>touch .env
 ``` 
 
-Inside your .env file specify the Beyonic API okey, get your API Token by clicking your user name on the bottom left of the left sidebar menu and selecting ‘Manage my account’ from the dropdown menu. The API Token is shown at the very bottom of the page.
+Inside your .env file specify the Beyonic API okey, get your API Token by clicking your user name on the bottom left of the left sidebar menu in the Beyonic web portal and selecting ‘Manage my account’ from the dropdown menu. The API Token is shown at the very bottom of the page.
 
 
 **.env file** 
