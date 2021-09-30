@@ -11,10 +11,13 @@ pip install beyonic
 
 **Using the python-dotenv module.** 
 
-Create a .env file using the following commands on your terminal or power shell.
+
+Install the python-dotenv modeule and create a .env file using the following commands on your terminal or power shell 
 
 ```bash 
->>>touch .env
+>>> pip install python-dotenv
+
+>>> touch .env
 ``` 
 
 Inside your .env file specify the Beyonic API okey, get your API Token by clicking your user name on the bottom left of the left sidebar menu in the Beyonic web portal and selecting ‘Manage my account’ from the dropdown menu. The API Token is shown at the very bottom of the page.
