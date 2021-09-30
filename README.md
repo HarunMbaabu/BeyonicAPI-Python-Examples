@@ -8,9 +8,7 @@
 pip install beyonic
 ```
 
-**
-[getExamples.py]
-**
+**[getExamples.py]()**
 
 ```python
 import os 
