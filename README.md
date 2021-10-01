@@ -1,5 +1,11 @@
 ### **Beyonic API Python Examples.** 
 
+
+The beyonic APIs Doc Reference: https://apidocs.beyonic.com/
+
+To start using the Beyonic API Python API, you need to start by downloading the Beyonic API fficial Python client library and setting your secret key.
+
+
 **Install the Beyonic API Python Official client library** 
 
 ```python
