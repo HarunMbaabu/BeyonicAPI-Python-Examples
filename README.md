@@ -1,16 +1,12 @@
 ### **Beyonic API Python Examples.** 
 
-
 **Install the Beyonic API Python Official client library** 
-
 
 ```python
 pip install beyonic
 ```
 
-
 **Using the python-dotenv module.** 
-
 
 Install the python-dotenv modeule and create a .env file using the following commands on your terminal or power shell 
 
@@ -85,7 +81,6 @@ Error: AttributeError: module 'beyonic' has no attribute 'Event'
 '''
 
 ```
-
 
 **Docker file**
 

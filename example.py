@@ -19,9 +19,12 @@ print(accounts)
 '''
 
 #Listing currencies.
+'''
 currencies = beyonic.Currency.list()
 print(currencies)
 
+Error:beyonic.errors.ResponseError: 500 error: b'{"detail":"An unexpected error has occurred. Please report to support@beyonic.com. Error Id: None"}'
+'''
 
 #Listing networks
 '''
