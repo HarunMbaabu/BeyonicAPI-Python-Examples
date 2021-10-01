@@ -12,23 +12,31 @@ To start using the Beyonic API Python API, you need to start by downloading the 
 pip install beyonic
 ```
 
-**Using the python-dotenv module.** 
+**Setting your secrete key.** 
 
-Install the python-dotenv modeule and create a .env file using the following commands on your terminal or power shell 
+To set the secrete key install the python-dotenv modeule, **Python-dotenv** is a Python module that allows you to specify environment variables in traditional UNIX-like “.env” (dot-env) file within your Python project directory, it helps us work with SECRETS and KEYS without exposing them to the outside world, and keep them safe during development too.
 
-```bash 
+**Installing python-dotenv modeule**
+
+```python 
 >>> pip install python-dotenv
+```
 
+**Creating a .env file to keep our secrete keys.**
+
+```bash
 >>> touch .env
 ``` 
 
-Inside your .env file specify the Beyonic API okey, get your API Token by clicking your user name on the bottom left of the left sidebar menu in the Beyonic web portal and selecting ‘Manage my account’ from the dropdown menu. The API Token is shown at the very bottom of the page.
-
+Inside your .env file specify the Beyonic API Token . 
 
 **.env file** 
 ```python
-BEYONIC_ACCESS_KEY = "Enter your API "
+BEYONIC_ACCESS_KEY = "enter your API "
 ```
+
+You will get your API Token by clicking your user name on the bottom left of the left sidebar menu in the Beyonic web portal and selecting ‘Manage my account’ from the dropdown menu. The API Token is shown at the very bottom of the page.
+
 
 #### **[getExamples.py](https://github.com/HarunMbaabu/BeyonicAPI-Python-Examples/blob/main/getExamples.py)**
 
