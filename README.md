@@ -9,7 +9,7 @@ To start using the Beyonic API Python API, you need to start by downloading the 
 **Install the Beyonic API Python Official client library** 
 
 ```python
-pip install beyonic
+>>> pip install beyonic
 ```
 
 **Setting your secrete key.** 
