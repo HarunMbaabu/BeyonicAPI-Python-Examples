@@ -123,5 +123,35 @@ CMD [ "python3", "getExamples.py" ]
 
 ```docker
 >>>docker run -t -i bey 
+``` 
+
+Now, I’ll create a Docker compose file to run a Docker container using the Docker image we just created. 
+
+
+```docker-compose.yml
+
+version: "3.6"
+services:
+  app:
+    build: .
+    command: python main.py
+    ports:
+      - "5000:5000"
+    volumes:
+      - .:/python-flask
+```
+
+Now we are going to run the following command from the same directory where the docker-compose.yml file is located. The docker compose up command will start and run the entire app.
+
+```docker 
+
+docker compose up
+
+``` 
+
+To stop the container running on daemon mode use the below command.
+
+```docker
+docker-compose stop
 ```
 
