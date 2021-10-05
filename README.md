@@ -134,11 +134,11 @@ version: "3.6"
 services:
   app:
     build: .
-    command: python main.py
+    command: python getExamples.py
     ports:
       - "5000:5000"
     volumes:
-      - .:/python-flask
+      - .:/pythonBeyonicExamples
 ```
 
 Now we are going to run the following command from the same directory where the docker-compose.yml file is located. The docker compose up command will start and run the entire app.
