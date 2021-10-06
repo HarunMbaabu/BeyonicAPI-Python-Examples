@@ -141,7 +141,7 @@ docker compose up
 
 ### **Output** 
 
-![docker compose up preview](Resources/Screenshot 2021-10-06 at 15.27.12)
+![docker compose up preview](https://github.com/HarunMbaabu/BeyonicAPI-Python-Examples/blob/main/Resources%20/Screenshot%202021-10-06%20at%2015.27.12.png)
 
 To stop the container running on daemon mode use the below command.
 
