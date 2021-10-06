@@ -61,7 +61,7 @@ print(accounts)
 supported_currencies = beyonic.Currency.list()
 print(supported_currencies)
 
-Supported currencies are:  
+Supported currencies are: USD, UGX, KES, BXC, GHS, TZS, RWF, ZMW, MWK, BIF, EUR, XAF, GNF, XOF, XOF
 '''
 
 #Listing networks: Not working yet.
@@ -86,7 +86,6 @@ print(events)
 
 Error: AttributeError: module 'beyonic' has no attribute 'Event'
 '''
-
 
 ```
 
