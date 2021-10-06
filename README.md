@@ -43,7 +43,7 @@ You will get your API Token by clicking your user name on the bottom left of the
 ```python
 import os 
 import beyonic
-from dotenv import load_dotenv
+from dotenv import load_dotenv 
 
 load_dotenv()
 
@@ -51,48 +51,41 @@ myapi = os.environ['BEYONIC_ACCESS_KEY']
 
 beyonic.api_key = myapi 
 
-'''
-Common get methods 
-'''
-
-#Listing account.
+#Listing account: Working. 
 '''
 accounts = beyonic.Account.list() 
 print(accounts)
 '''
 
-#Listing currencies.
+#Listing currencies: Not working yet.
 '''
-currencies = beyonic.Currency.list()
-print(currencies)
-
-Error:
-beyonic.errors.ResponseError: 500 error:
-b'{"detail":"An unexpected error has occurred. Please report to support@beyonic.com. Error Id: None"}'
+# supported_currencies = beyonic.Currency.list()
+# print(supported_currencies)
 '''
 
-#Listing networks
+#Listing networks: Not working yet.
 '''
 networks = beyonic.Network.list()
 print(networks)
 '''
 
-#Listing transactions.
+#Listing transactions: Working. 
 transactions = beyonic.Transaction.list()
 print(transactions) 
 
-#Listing contact.
-contacts = beyonic.Contact.list() 
-print(contacts) 
+#Listing contact: Working. 
+mycontacts = beyonic.Contact.list() 
+print(mycontacts) 
 
 
-#Listing events
+#Listing events: Not working yet.
 '''
 events = beyonic.Event.list()
 print(events)
 
 Error: AttributeError: module 'beyonic' has no attribute 'Event'
 '''
+
 
 ```
 
