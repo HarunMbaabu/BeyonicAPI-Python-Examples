@@ -139,6 +139,10 @@ docker compose up
 
 ``` 
 
+### **Output** 
+
+![docker compose up preview](Resources/Screenshot 2021-10-06 at 15.27.12)
+
 To stop the container running on daemon mode use the below command.
 
 ```docker

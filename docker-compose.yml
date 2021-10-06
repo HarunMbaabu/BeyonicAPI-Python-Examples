@@ -1,0 +1,7 @@
+version: "1"
+services:
+  app:
+    build: .
+    command: python getExamples.py
+    volumes:
+      - .:/pythonBeyonicExamples
