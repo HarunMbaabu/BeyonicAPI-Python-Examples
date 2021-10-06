@@ -140,6 +140,7 @@ docker compose up
 ``` 
 
 ### **Output** 
+**NB:** The screenshot below might differ according to your account deatils and your transcations in deatils. 
 
 ![docker compose up preview](https://github.com/HarunMbaabu/BeyonicAPI-Python-Examples/blob/main/Resources%20/Screenshot%202021-10-06%20at%2015.27.12.png)
 
