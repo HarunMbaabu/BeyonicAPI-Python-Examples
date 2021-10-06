@@ -1,6 +1,6 @@
 import os 
 import beyonic
-from dotenv import load_dotenv
+from dotenv import load_dotenv 
 
 load_dotenv()
 
@@ -8,23 +8,24 @@ myapi = os.environ['BEYONIC_ACCESS_KEY']
 
 beyonic.api_key = myapi 
 
-#Listing account: Working. 
-'''
+# Listing account: Working. 
 accounts = beyonic.Account.list() 
 print(accounts)
-'''
+
 
 #Listing currencies: Not working yet.
 '''
-# supported_currencies = beyonic.Currency.list()
-# print(supported_currencies)
+supported_currencies = beyonic.Currency.list()
+print(supported_currencies)
+
+Supported currencies are:  
 '''
 
 #Listing networks: Not working yet.
-'''
+"""
 networks = beyonic.Network.list()
 print(networks)
-'''
+"""
 
 #Listing transactions: Working. 
 transactions = beyonic.Transaction.list()

@@ -51,23 +51,24 @@ myapi = os.environ['BEYONIC_ACCESS_KEY']
 
 beyonic.api_key = myapi 
 
-#Listing account: Working. 
-'''
+# Listing account: Working. 
 accounts = beyonic.Account.list() 
 print(accounts)
-'''
+
 
 #Listing currencies: Not working yet.
 '''
-# supported_currencies = beyonic.Currency.list()
-# print(supported_currencies)
+supported_currencies = beyonic.Currency.list()
+print(supported_currencies)
+
+Supported currencies are:  
 '''
 
 #Listing networks: Not working yet.
-'''
+"""
 networks = beyonic.Network.list()
 print(networks)
-'''
+"""
 
 #Listing transactions: Working. 
 transactions = beyonic.Transaction.list()
@@ -86,12 +87,13 @@ print(events)
 Error: AttributeError: module 'beyonic' has no attribute 'Event'
 '''
 
+
 ```
 
 **Docker file**
 
 ```Dockerfile
-FROM python:3.6
+FROM python:3.8-slim-buster
 
 COPY . .
 
@@ -100,7 +102,6 @@ COPY ./requirements.txt ./requirements.txt
 WORKDIR .
 
 RUN pip install -r requirements.txt
-
 
 CMD [ "python3", "getExamples.py" ]
 ```
