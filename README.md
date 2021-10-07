@@ -1,10 +1,23 @@
 ### **Beyonic API Python Examples.** 
 
 
-The beyonic APIs Doc Reference: https://apidocs.beyonic.com/
+The beyonic APIs Doc Reference: https://apidocs.beyonic.com/ 
+
+The Beyonic API is a [representational state transfer](https://en.wikipedia.org/wiki/Representational_state_transfer), REST based application programming interface that lets you extend the Beyonic dashboard features into your application and systems, allowing you to build amazing payment experiences. 
+
+**With the Beyonic API you can:**
+- Receive and send money  and prepaid airtime.
+- List currencies and networks supported by the Beyonic API.
+- Check whether a bank is supported by the Beyonic API.
+- View your account transactions history.
+- Add, retrieve, list, and update contacts to your Beyonic account.
+- Use webhooks to send notifications to URLs on your server that when specific events occur in your Beyonic account (e.g. payments).
+
+
+**Getting Help**
+For usage questions, the best place to go to is [Beyhive slack community](https://beyonic.com/join-community). Further, general questions and discussions can also take place on the issue section on this repository.
 
 To start using the Beyonic Python API, you need to start by downloading the Beyonic API official Python client library and setting your secret key.
-
 
 **Install the Beyonic API Python Official client library** 
 
