@@ -147,6 +147,6 @@ docker compose up
 To stop the container running on daemon mode use the below command.
 
 ```docker
-docker-compose stop
+docker compose stop
 ```
 
