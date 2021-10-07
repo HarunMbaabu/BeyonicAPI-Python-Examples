@@ -15,7 +15,7 @@ The Beyonic API is a [representational state transfer](https://en.wikipedia.org/
 
 
 **Getting Help**
-For usage questions, the best place to go to is [Beyhive slack community](https://beyonic.com/join-community). Further, general questions and discussions can also take place on the issue section on this repository.
+For usage questions, the best place to go to is [Beyhive slack community](https://beyonic.com/join-community). Further, general questions and discussions can also take place on the  my twitter dm [@Harun Mwenda](https://twitter.com/HarunMbaabu).
 
 To start using the Beyonic Python API, you need to start by downloading the Beyonic API official Python client library and setting your secret key.
 
