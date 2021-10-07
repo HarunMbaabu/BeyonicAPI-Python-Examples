@@ -13,7 +13,7 @@ The Beyonic API is a [representational state transfer](https://en.wikipedia.org/
 - Use webhooks to send notifications to URLs on your server that when specific events occur in your Beyonic account (e.g. payments).
 
 
-**Getting Help**
+### **Getting Help**
 For usage, general questions, and discussions the best place to go to is [Beyhive Slack Community](https://beyonic.com/join-community), also feel free to clone and edit this repository and edit it to meet project, application or system needs.
 
 To start using the Beyonic Python API, you need to start by downloading the Beyonic API official Python client library and setting your secret key.
@@ -162,6 +162,7 @@ docker compose stop
 ```
 
 **Output**
+
 ![docker compose preview](https://github.com/HarunMbaabu/BeyonicAPI-Python-Examples/blob/main/Resources%20/compose%20down.png)
 
 
