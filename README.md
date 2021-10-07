@@ -161,6 +161,8 @@ To stop the container running on daemon mode use the below command.
 docker compose stop
 ```
 
+**Output**
+![docker compose preview](https://github.com/HarunMbaabu/BeyonicAPI-Python-Examples/blob/main/Resources%20/compose%20down.png)
 
 
 Contributing to this repository. 
