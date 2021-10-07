@@ -1,6 +1,5 @@
 ### **Beyonic API Python Examples.** 
 
-
 The beyonic APIs Doc Reference: https://apidocs.beyonic.com/ 
 
 The Beyonic API is a [representational state transfer](https://en.wikipedia.org/wiki/Representational_state_transfer), REST based application programming interface that lets you extend the Beyonic dashboard features into your application and systems, allowing you to build amazing payment experiences. 
@@ -15,7 +14,7 @@ The Beyonic API is a [representational state transfer](https://en.wikipedia.org/
 
 
 **Getting Help**
-For usage, general questions, and discussions the best place to go to is [Beyhive Slack Community](https://beyonic.com/join-community). 
+For usage, general questions, and discussions the best place to go to is [Beyhive Slack Community](https://beyonic.com/join-community), also feel free to clone and edit this repository and edit it to meet project, application or system needs.
 
 To start using the Beyonic Python API, you need to start by downloading the Beyonic API official Python client library and setting your secret key.
 
@@ -49,7 +48,6 @@ BEYONIC_ACCESS_KEY = "enter your API "
 ```
 
 You will get your API Token by clicking your user name on the bottom left of the left sidebar menu in the Beyonic web portal and selecting ‘Manage my account’ from the dropdown menu. The API Token is shown at the very bottom of the page.
-
 
 #### **[getExamples.py](https://github.com/HarunMbaabu/BeyonicAPI-Python-Examples/blob/main/getExamples.py)**
 
