@@ -1,6 +1,6 @@
 ### **Beyonic API Python Examples.** 
 
-The beyonic APIs Doc Reference: https://apidocs.beyonic.com/ 
+The beyonic APIs Docs Reference: https://apidocs.beyonic.com/ , You can discuss Beyonic API on [slack](https://beyonic.com/join-community)
 
 The Beyonic API is a [representational state transfer](https://en.wikipedia.org/wiki/Representational_state_transfer), REST based application programming interface that lets you extend the Beyonic dashboard features into your application and systems, allowing you to build amazing payment experiences. 
 
